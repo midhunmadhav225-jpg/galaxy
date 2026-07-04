@@ -1,0 +1,8 @@
+{
+  "images": [
+    { "id": 1, "file": "product-1.svg", "alt": "Product placeholder 1" },
+    { "id": 2, "file": "product-2.svg", "alt": "Product placeholder 2" },
+    { "id": 3, "file": "product-3.svg", "alt": "Product placeholder 3" },
+    { "id": 4, "file": "product-4.svg", "alt": "Product placeholder 4" }
+  ]
+}
