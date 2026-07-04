@@ -3,18 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galaxy — Professional anti-slip spray and industrial-grade surface protection.">
+  <meta name="theme-color" content="#0f0e0c">
   <title>Galaxy — Anti Slip Spray</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 </head>
 <body>
   <div class="grid-bg" aria-hidden="true"></div>
 
   <header class="header">
-    <a href="#" class="logo">galaxy</a>
-    <a href="#contact" class="nav-cta">Contact Sales</a>
+    <a href="/" class="logo">galaxy</a>
+    <nav>
+      <a href="/assets/gallery.html" class="nav-cta">Assets</a>
+      <a href="#contact" class="nav-cta">Contact Sales</a>
+    </nav>
   </header>
 
   <!-- Hero -->
@@ -27,7 +33,11 @@
       </h1>
       <p class="scroll-hint reveal">Scroll to reveal</p>
       <div class="product-wrap">
-        <img src="assets/product-1.svg" alt="Galaxy Anti Slip Spray 500ml" class="product-img" id="product">
+        <picture>
+          <!-- SVG placeholders are lightweight and scale well; replace with real images in /assets -->
+          <source srcset="assets/product-1.svg" type="image/svg+xml">
+          <img src="assets/product-1.svg" alt="Galaxy Anti Slip Spray 500ml" class="product-img" id="product" loading="lazy" decoding="async">
+        </picture>
       </div>
     </div>
   </section>
@@ -115,7 +125,10 @@
   <section class="showcase">
     <div class="showcase-card">
       <div class="showcase-product">
-        <img src="assets/product-1.svg" alt="Galaxy Anti Slip Spray">
+        <picture>
+          <source srcset="assets/product-2.svg" type="image/svg+xml">
+          <img src="assets/product-2.svg" alt="Galaxy product showcase" loading="lazy" decoding="async">
+        </picture>
       </div>
     </div>
     <div class="features-row">
@@ -211,6 +224,6 @@
     <p class="footer-credit">Galaxy Anti Slip Spray</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" async></script>
 </body>
 </html>
