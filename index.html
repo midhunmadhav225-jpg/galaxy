@@ -35,8 +35,8 @@
       <div class="product-wrap">
         <picture>
           <!-- SVG placeholders are lightweight and scale well; replace with real images in /assets -->
-          <source srcset="assets/product-1.svg" type="image/svg+xml">
-          <img src="assets/product-1.svg" alt="Galaxy Anti Slip Spray 500ml" class="product-img" id="product" loading="lazy" decoding="async">
+          <source srcset="assets/product-1.jpg 1x, assets/product-1@2x.jpg 2x" type="image/jpeg">
+          <img src="assets/product-1.svg" alt="Galaxy Anti Slip Spray 500ml" class="product-img" id="product" loading="lazy" decoding="async" width="600" height="800">
         </picture>
       </div>
     </div>
@@ -126,8 +126,8 @@
     <div class="showcase-card">
       <div class="showcase-product">
         <picture>
-          <source srcset="assets/product-2.svg" type="image/svg+xml">
-          <img src="assets/product-2.svg" alt="Galaxy product showcase" loading="lazy" decoding="async">
+          <source srcset="assets/product-2.jpg 1x, assets/product-2@2x.jpg 2x" type="image/jpeg">
+          <img src="assets/product-2.svg" alt="Galaxy product showcase" loading="lazy" decoding="async" width="600" height="420">
         </picture>
       </div>
     </div>
@@ -216,7 +216,21 @@
       <span>Ready</span>
       <span>to Grip?</span>
     </h2>
-    <a href="mailto:sales@galaxy.com" class="cta-button">Contact Sales</a>
+    <form action="https://formsubmit.co/sales@galaxy.com" method="POST" class="contact-form" novalidate>
+      <!-- basic anti-spam honeypot -->
+      <input type="text" name="_honey" style="display:none">
+      <!-- disable FormSubmit captcha -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="Website inquiry — Galaxy">
+
+      <div class="contact-row">
+        <input type="email" name="email" placeholder="Your email" required aria-label="Your email">
+        <input type="text" name="name" placeholder="Your name (optional)" aria-label="Your name">
+      </div>
+      <textarea name="message" rows="4" placeholder="How can we help?" required aria-label="Message"></textarea>
+      <button class="cta-button" type="submit">Contact Sales</button>
+    </form>
+    <p class="contact-note">Or email <a href="mailto:sales@galaxy.com">sales@galaxy.com</a></p>
   </section>
 
   <footer class="footer">
