@@ -1,8 +1,10 @@
 {
   "images": [
-    { "id": 1, "file": "product-1.svg", "alt": "Product placeholder 1" },
-    { "id": 2, "file": "product-2.svg", "alt": "Product placeholder 2" },
-    { "id": 3, "file": "product-3.svg", "alt": "Product placeholder 3" },
-    { "id": 4, "file": "product-4.svg", "alt": "Product placeholder 4" }
+    { "id": 1, "file": "product-1.jpg", "alt": "Galaxy product lineup with rally background" },
+    { "id": 2, "file": "product-2.jpg", "alt": "Galaxy carnauba liquid wax product shot" },
+    { "id": 3, "file": "product-3.jpg", "alt": "Galaxy premium auto care product lineup" },
+    { "id": 4, "file": "product-4.jpg", "alt": "Galaxy instant shine dashboard & leather wax cans" },
+    { "id": 5, "file": "product-5.jpg", "alt": "Galaxy premium auto care lineup (additional)" },
+    { "id": 6, "file": "product-6.jpg", "alt": "Galaxy anti-slip spray can product photo" }
   ]
 }
