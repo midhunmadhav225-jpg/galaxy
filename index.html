@@ -2,10 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Galaxy — Professional anti-slip spray and industrial-grade surface protection.">
   <meta name="theme-color" content="#0f0e0c">
+
   <title>Galaxy — Anti Slip Spray</title>
+
+  <!-- Open Graph / Social -->
+  <meta property="og:site_name" content="Galaxy">
+  <meta property="og:title" content="Galaxy — Anti Slip Spray">
+  <meta property="og:description" content="Professional anti-slip spray that creates durable, invisible grip on surfaces for safer spaces.">
+  <meta property="og:type" content="product">
+  <meta property="og:url" content="https://midhunmadhav225-jpg.github.io/galaxy/">
+  <meta property="og:image" content="https://midhunmadhav225-jpg.github.io/galaxy/assets/PHOTO-2026-06-25-10-06-40.jpg">
+  <meta property="og:image:alt" content="Galaxy product lineup with rally background">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Galaxy — Anti Slip Spray">
+  <meta name="twitter:description" content="Professional anti-slip spray that creates durable, invisible grip on surfaces for safer spaces.">
+  <meta name="twitter:image" content="https://midhunmadhav225-jpg.github.io/galaxy/assets/PHOTO-2026-06-25-10-06-40.jpg">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://midhunmadhav225-jpg.github.io/galaxy/">
+
+  <!-- Recommended: preload / preconnect fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" as="style">
+
+  <!-- Structured data (Product) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Galaxy Anti Slip Spray",
+    "image": [
+      "https://midhunmadhav225-jpg.github.io/galaxy/assets/PHOTO-2026-06-25-10-06-40.jpg"
+    ],
+    "description": "Professional anti-slip spray that creates durable, invisible grip on surfaces for safer spaces.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Galaxy"
+    }
+  }
+  </script>
+
+  <!-- existing stylesheet / fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
@@ -26,20 +68,17 @@
   <!-- Hero -->
   <section class="hero" id="hero">
     <div class="hero-inner">
-      <div>
-        <p class="eyebrow reveal">Meet • Galaxy</p>
-        <h1 class="hero-title reveal">
-          <span>Safety Without</span>
-          <span>Limitation</span>
-        </h1>
-        <p class="scroll-hint reveal">Scroll to reveal</p>
-      </div>
-      <div class="product-wrap" aria-hidden="false">
-        <!-- Three.js scene will be injected into this container if available. The picture below serves as an accessible fallback. -->
+      <p class="eyebrow reveal">Meet • Galaxy</p>
+      <h1 class="hero-title reveal">
+        <span>Safety Without</span>
+        <span>Limitation</span>
+      </h1>
+      <p class="scroll-hint reveal">Scroll to reveal</p>
+      <div class="product-wrap">
         <picture>
-          <!-- use the actual uploaded photo as the hero image -->
-          <source srcset="assets/PHOTO-2026-06-25-10-06-40.jpg" type="image/jpeg">
-          <img src="assets/PHOTO-2026-06-25-10-06-40.jpg" alt="Rally scene with Galaxy engine additive bottles in the foreground" class="product-img" id="product" loading="lazy" decoding="async" width="600" height="420">
+          <!-- responsive sources (jpeg fallbacks will be used when present) -->
+          <source srcset="assets/product-1.jpg 1x, assets/product-1@2x.jpg 2x" type="image/jpeg">
+          <img src="assets/product-1.svg" alt="Rally scene with Galaxy engine additive bottles in the foreground" class="product-img" id="product" loading="lazy" decoding="async" width="600" height="420">
         </picture>
       </div>
     </div>
@@ -109,10 +148,10 @@
       </div>
       <div class="experience-content">
         <p class="tab-desc active" data-panel="0">
-          Galaxy Anti Slip Spray creates an invisible high-grip layer on floors and surfaces, dramatically reducing slip hazards in workplaces, warehouses, and commercial spaces. One application delivers immediate traction improvements.
+          Galaxy Anti Slip Spray creates an invisible high-grip layer on floors and surfaces, dramatically reducing slip hazards in workplaces, warehouses, and commercial spaces. One application [...]
         </p>
         <p class="tab-desc" data-panel="1">
-          Engineered for industrial and professional use, the durable coating withstands heavy foot traffic, moisture, and daily wear. Built to last so your surfaces stay protected shift after shift.
+          Engineered for industrial and professional use, the durable coating withstands heavy foot traffic, moisture, and daily wear. Built to last so your surfaces stay protected shift after sh[...]        
         </p>
         <p class="tab-desc" data-panel="2">
           Whether applied indoors on polished concrete or outdoors on ramps and walkways, Galaxy performs consistently across environments. Rain or shine, the formula maintains reliable traction.
@@ -129,8 +168,8 @@
     <div class="showcase-card">
       <div class="showcase-product">
         <picture>
-          <source srcset="assets/PHOTO-2026-06-25-10-18-23.jpg" type="image/jpeg">
-          <img src="assets/PHOTO-2026-06-25-10-18-23.jpg" alt="Galaxy Carnauba Liquid Wax bottle on a reflective display with polishing cloths" loading="lazy" decoding="async" width="600" height="420">
+          <source srcset="assets/product-2.jpg 1x, assets/product-2@2x.jpg 2x" type="image/jpeg">
+          <img src="assets/product-2.svg" alt="Galaxy Carnauba Liquid Wax bottle on a reflective display with polishing cloths" loading="lazy" decoding="async" width="600" height="420">
         </picture>
       </div>
     </div>
@@ -241,9 +280,6 @@
     <p class="footer-credit">Galaxy Anti Slip Spray</p>
   </footer>
 
-  <!-- Three.js (lightweight) -->
-  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
-  <script src="three-scene.js" defer></script>
   <script src="script.js" async></script>
 </body>
 </html>
