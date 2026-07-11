@@ -7,6 +7,5 @@ I used the images posted in chat as the working set for the site. To get the bes
 - product-3.jpg  (product lineup)
 - product-4.jpg  (cans)
 - product-5.jpg  (additional lineup)
-- product-6.jpg  (anti-slip spray can)
 
 If you prefer, you can attach them directly in this chat and I will upload them for you and generate optimized variants.
