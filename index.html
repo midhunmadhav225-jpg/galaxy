@@ -26,17 +26,20 @@
   <!-- Hero -->
   <section class="hero" id="hero">
     <div class="hero-inner">
-      <p class="eyebrow reveal">Meet • Galaxy</p>
-      <h1 class="hero-title reveal">
-        <span>Safety Without</span>
-        <span>Limitation</span>
-      </h1>
-      <p class="scroll-hint reveal">Scroll to reveal</p>
-      <div class="product-wrap">
+      <div>
+        <p class="eyebrow reveal">Meet • Galaxy</p>
+        <h1 class="hero-title reveal">
+          <span>Safety Without</span>
+          <span>Limitation</span>
+        </h1>
+        <p class="scroll-hint reveal">Scroll to reveal</p>
+      </div>
+      <div class="product-wrap" aria-hidden="false">
+        <!-- Three.js scene will be injected into this container if available. The picture below serves as an accessible fallback. -->
         <picture>
-          <!-- responsive sources (jpeg fallbacks will be used when present) -->
-          <source srcset="assets/product-1.jpg 1x, assets/product-1@2x.jpg 2x" type="image/jpeg">
-          <img src="assets/product-1.svg" alt="Rally scene with Galaxy engine additive bottles in the foreground" class="product-img" id="product" loading="lazy" decoding="async" width="600" height="800">
+          <!-- use the actual uploaded photo as the hero image -->
+          <source srcset="assets/PHOTO-2026-06-25-10-06-40.jpg" type="image/jpeg">
+          <img src="assets/PHOTO-2026-06-25-10-06-40.jpg" alt="Rally scene with Galaxy engine additive bottles in the foreground" class="product-img" id="product" loading="lazy" decoding="async" width="600" height="420">
         </picture>
       </div>
     </div>
@@ -106,7 +109,7 @@
       </div>
       <div class="experience-content">
         <p class="tab-desc active" data-panel="0">
-          Galaxy Anti Slip Spray creates an invisible high-grip layer on floors and surfaces, dramatically reducing slip hazards in workplaces, warehouses, and commercial spaces. One application helps protect people where safety matters most.
+          Galaxy Anti Slip Spray creates an invisible high-grip layer on floors and surfaces, dramatically reducing slip hazards in workplaces, warehouses, and commercial spaces. One application delivers immediate traction improvements.
         </p>
         <p class="tab-desc" data-panel="1">
           Engineered for industrial and professional use, the durable coating withstands heavy foot traffic, moisture, and daily wear. Built to last so your surfaces stay protected shift after shift.
@@ -126,8 +129,8 @@
     <div class="showcase-card">
       <div class="showcase-product">
         <picture>
-          <source srcset="assets/product-2.jpg 1x, assets/product-2@2x.jpg 2x" type="image/jpeg">
-          <img src="assets/product-2.svg" alt="Galaxy Carnauba Liquid Wax bottle on a reflective display with polishing cloths" loading="lazy" decoding="async" width="600" height="420">
+          <source srcset="assets/PHOTO-2026-06-25-10-18-23.jpg" type="image/jpeg">
+          <img src="assets/PHOTO-2026-06-25-10-18-23.jpg" alt="Galaxy Carnauba Liquid Wax bottle on a reflective display with polishing cloths" loading="lazy" decoding="async" width="600" height="420">
         </picture>
       </div>
     </div>
@@ -238,6 +241,9 @@
     <p class="footer-credit">Galaxy Anti Slip Spray</p>
   </footer>
 
+  <!-- Three.js (lightweight) -->
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <script src="three-scene.js" defer></script>
   <script src="script.js" async></script>
 </body>
 </html>
