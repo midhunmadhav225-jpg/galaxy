@@ -1,0 +1,29 @@
+{
+  "assets": [
+    {
+      "id": "product-1",
+      "file": "PHOTO-2026-06-25-10-06-40.jpg",
+      "alt": "Rally scene with Galaxy engine additive bottles in the foreground"
+    },
+    {
+      "id": "product-2",
+      "file": "PHOTO-2026-06-25-10-18-23.jpg",
+      "alt": "Galaxy Carnauba Liquid Wax bottle on a reflective display with polishing cloths"
+    },
+    {
+      "id": "product-3",
+      "file": "PHOTO-2026-06-25-10-06-41 (1) - Copy.jpg",
+      "alt": "Galaxy premium auto care product lineup"
+    },
+    {
+      "id": "product-4",
+      "file": "PHOTO-2026-06-25-10-18-23 (1) - Copy - Copy.jpg",
+      "alt": "Galaxy instant shine dashboard & leather wax cans"
+    },
+    {
+      "id": "product-5",
+      "file": "PHOTO-2026-07-02-01-22-58.jpg",
+      "alt": "Galaxy premium auto care lineup (additional)"
+    }
+  ]
+}
